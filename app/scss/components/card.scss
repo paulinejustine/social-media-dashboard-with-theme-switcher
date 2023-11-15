@@ -22,6 +22,7 @@
     padding: rem(25);
     border-radius: rem(5);
     text-align: center;
+    margin-bottom: rem(30);
 
 
     &--facebook{
@@ -42,10 +43,18 @@
             display: block;
             left: 0;
             top: 0;
+            background: linear-gradient(
+                225deg, 
+                var(--instagram-end) 0%, 
+                var(--instagram-middle) 50.91%, 
+                var(--instagram-start) 100%);
         }
     }
     &--youtube{
         border-top: rem(5) solid var(--youtube);
+    }
+    &--grid{
+
     }
     &__platform{
         display: flex;
@@ -55,6 +64,10 @@
         margin-bottom: rem(28);
         height: rem(20);
         margin-top: rem(5);
+    }
+    &__subtitle{
+        font-size: rem(14);
+        font-weight: 700;
     }
     &__icon {
         &--facebook{
@@ -88,7 +101,7 @@
 
         }
         &--small{
-
+            font-size: rem(32);
         }
     }
     &__label{
