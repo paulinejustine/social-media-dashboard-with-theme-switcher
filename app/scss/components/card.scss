@@ -23,8 +23,12 @@
     border-radius: rem(5);
     text-align: center;
     margin-bottom: rem(30);
+    transition: background 150ms ease-in-out;
+    cursor: pointer;
 
-
+    &:hover{
+        background:var(--dark-card-hover);
+    }
     &--facebook{
         border-top: rem(5) solid var(--facebook);
     } 
